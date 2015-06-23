@@ -21,6 +21,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         number = 0
         
+        
+        var barButton:UIBarButtonItem!
+        
+        barButton = UIBarButtonItem(barButtonSystemItem: .Play, target: self, action: "startAlarm:")
+
 //        //for文使わない方法（方法その0）
 //        imgArray.append(UIImage(named: "0.png")!)
 //        imgArray.append(UIImage(named: "1.png")!)
